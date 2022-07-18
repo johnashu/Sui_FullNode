@@ -7,9 +7,12 @@ def start_logger(verbose: bool = False) -> logging:
     # LOGGING
     file_handler = logging.FileHandler(
         os.path.join(
-            "logs", f"{ts.day}-{ts.month}-{ts.year}_{ts.hour}_{ts.minute}.log"),  'a', 'utf-8'
-        )
-    
+            "logs", f"{ts.day}-{ts.month}-{ts.year}_{ts.hour}_{ts.minute}.log"
+        ),
+        "a",
+        "utf-8",
+    )
+
     stdout_handler = logging.StreamHandler(sys.stdout)
     handlers = [file_handler, stdout_handler]
 

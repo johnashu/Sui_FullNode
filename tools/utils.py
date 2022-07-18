@@ -35,4 +35,3 @@ def readable_price(num, d: int = 18, show_decimals=True, print_res=True) -> str:
     if print_res:
         print(rtn_str)
     return rtn_str
-

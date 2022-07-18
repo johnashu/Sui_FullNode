@@ -1,0 +1,126 @@
+{
+    "jsonrpc": "2.0",
+    "result": {
+        "certificate": {
+            "transactionDigest": "6+JDIRduJ8DGp6MTWjkb36lCVLKp7pWeSUsVr0U5rFw=",
+            "data": {
+                "transactions": [
+                    {
+                        "TransferObject": {
+                            "recipient": "0x6a0666e7924e067ba7445f9cd3dc78a14894fec1",
+                            "objectRef": {
+                                "objectId": "0x84a4bcfe4924adf9a627ababea7551665cd9ea92",
+                                "version": 1,
+                                "digest": "LQ2Gntho0HYxpD3UigVTDEqLYPjcDwZURhvT8rgKbD8="
+                            }
+                        }
+                    }
+                ],
+                "sender": "0x813ec1ab1e1797c79d1e1fcbebebc27a1fd21f07",
+                "gasPayment": {
+                    "objectId": "0xef3bf894329b533495a36e6bf4fc33e195fba2cd",
+                    "version": 9730,
+                    "digest": "wMj/7FJYWxZ6g+atXx9212U5aeWtDmgv8O6qaGH1Fnc="
+                },
+                "gasBudget": 1000
+            },
+            "txSignature": "TPKh3V8iSji2puZ3RTJGH3i7F45BXHRIROA6Qi4LAW29ZCUXJWzedMo6oY2oMNdhTFZUh0TvrO/zCMp9kdp8AdRj4Rx5FZRehqwrctiLgZDPrY/3tI5+uJLCdaXPCj6C",
+            "authSignInfo": {
+                "epoch": 0,
+                "signatures": [
+                    "6mgtjOnuAL32a6p2CMRuog+4PrusNiJV1Yd1OgMfudtaKhbTQU7N98Bz6k4Bbkh9zZpVke5VshLyjCRhqcTHDQ==",
+                    "FGUJLW0rD2TrcdPmP9RouCRrl5sdwNgidqWyGrqfhOAOKh/n4AvruYLk+Ahn4GdgrArIEIXEGtwj+Uy1YCszCQ==",
+                    "WwSZXvNpEhYmYZCreA7Gw7GX6lXPehQgTCdgKgD5bN+6wQTgxueZrn/3lJAFbLPW4C4vJC+8naRY/RBlMFuWCw=="
+                ],
+                "signers_map": [
+                    58,
+                    48,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    16,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    0
+                ]
+            }
+        },
+        "effects": {
+            "status": {
+                "status": "success"
+            },
+            "gasUsed": {
+                "computationCost": 41,
+                "storageCost": 30,
+                "storageRebate": 30
+            },
+            "transactionDigest": "6+JDIRduJ8DGp6MTWjkb36lCVLKp7pWeSUsVr0U5rFw=",
+            "mutated": [
+                {
+                    "owner": {
+                        "AddressOwner": "0x6a0666e7924e067ba7445f9cd3dc78a14894fec1"
+                    },
+                    "reference": {
+                        "objectId": "0x84a4bcfe4924adf9a627ababea7551665cd9ea92",
+                        "version": 2,
+                        "digest": "Za5fltesOfyOVeXYMbfE8YYWiV1O3aRe3vn8UTKANMY="
+                    }
+                },
+                {
+                    "owner": {
+                        "AddressOwner": "0x813ec1ab1e1797c79d1e1fcbebebc27a1fd21f07"
+                    },
+                    "reference": {
+                        "objectId": "0xef3bf894329b533495a36e6bf4fc33e195fba2cd",
+                        "version": 9731,
+                        "digest": "kDdA0dZadpaBWNA5bMvKIEimIHnp1/8xlniiu3rwu5k="
+                    }
+                }
+            ],
+            "gasObject": {
+                "owner": {
+                    "AddressOwner": "0x813ec1ab1e1797c79d1e1fcbebebc27a1fd21f07"
+                },
+                "reference": {
+                    "objectId": "0xef3bf894329b533495a36e6bf4fc33e195fba2cd",
+                    "version": 9731,
+                    "digest": "kDdA0dZadpaBWNA5bMvKIEimIHnp1/8xlniiu3rwu5k="
+                }
+            },
+            "events": [
+                {
+                    "transferObject": {
+                        "packageId": "0x0000000000000000000000000000000000000002",
+                        "transactionModule": "native",
+                        "sender": "0x813ec1ab1e1797c79d1e1fcbebebc27a1fd21f07",
+                        "recipient": {
+                            "AddressOwner": "0x6a0666e7924e067ba7445f9cd3dc78a14894fec1"
+                        },
+                        "objectId": "0x84a4bcfe4924adf9a627ababea7551665cd9ea92",
+                        "version": 2,
+                        "type": "Coin"
+                    }
+                }
+            ],
+            "dependencies": [
+                "JGfQYLw3g7GEWbog9QHgbloGvJEWXKXVumnMWpTV16U=",
+                "w8Ob25gauoprODKGbPwiukWticUXGveHdEztBa+vnRI="
+            ]
+        },
+        "timestamp_ms": 1658133823880
+    },
+    "id": 0
+}
