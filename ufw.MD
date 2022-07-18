@@ -30,7 +30,7 @@ apt-get install ufw
 ufw allow 9184
 ufw allow 9000
 ufw allow 8080
-ufw allow 22
+ufw allow 2225
 ufw enable
 ufw status
 ufw status verbose

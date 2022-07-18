@@ -121,20 +121,8 @@ sudo service suiFullNode status
 sudo service suiFullNode stop
 sudo service suiFullNode restart
 
- # Check Logs
-tail -f /var/log/syslog
+# Check Logs
+sudo apt-get install grc
+sudo grc tail -f /var/log/syslog
 
 
-# Rescue Contabo
-
-# Mount disk
-
-sudo fdisk -l
-sudo mkdir /mnt/sda3
-sudo mount /dev/sda3 /mnt/sda3
-
-
-cd /mnt/sda3/etc/systemd/system/multi-user.target.wants/
-sudo rm ufw.service
-
-sudo reboot
