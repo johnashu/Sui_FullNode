@@ -26,20 +26,33 @@ WantedBy=multi-user.target
 EOF
 
 
+
 apt-get install ufw
+
 ufw allow 9184
+
 ufw allow 9000
+
 ufw allow 8080
-ufw allow 2225
+
+ufw allow 22
+
 ufw enable
+
 ufw status
+
 ufw status verbose
 
 sudo systemctl daemon-reload
+
 sudo chmod 755 /lib/systemd/system/ufw.service
+
 sudo systemctl enable ufw.service
+
 sudo service ufw start
+
 sudo service ufw status
+
 netstat -tulpn | grep LISTEN
 
 
