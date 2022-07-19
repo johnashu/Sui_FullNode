@@ -1,17 +1,19 @@
-# Contabo 
-154.53.59.19:9000
-154.53.59.19:9184
-
 # install rustup
 
+```bash
 sudo curl https://sh.rustup.rs -sSf | sh
+```
 
 To configure your current shell, run:
+
+```bash
 source "$HOME/.cargo/env"
 
+```
 REBOOT
 
 # Prerequistes.
+```bash
 
 sudo apt install net-tools
 
@@ -37,31 +39,51 @@ sudo apt-get update \
     libclang-dev \
     cmake
 
+```
 # Git
-git clone https://github.com/johnashu/sui.git
+
+```bash
+git clone https://github.com/<GITHUB_USER>/sui.git
+```
 
 Set up your fork of the Sui repository:
 Go to the Sui repository on GitHub and click the Fork button in the top right-hand corner of the screen.
 Clone your personal fork of the Sui repository to your local machine (ensure that you insert your GitHub username into the URL):
 
-git clone https://github.com/johnashu/sui.git
+```bash
+git clone https://github.com/<GITHUB_USER>/sui.git
+```
 
 cd into your sui repository:
+
+```bash
 cd sui
+```
 
 Set up the Sui repository as a git remote:
+
+```bash
 git remote add upstream https://github.com/MystenLabs/sui
+```
 
 Sync your fork:
+
+```bash
 git fetch upstream
+```
 
 Check out the devnet branch:
+
+```bash
 git checkout --track upstream/devnet
+```
 
 # Get Chain states
 
 # Make a copy of the fullnode configuration template:
+```bash
 cp crates/sui-config/data/fullnode-template.yaml fullnode.yaml
+```
 
 # configurte public views and Open Ports
 
