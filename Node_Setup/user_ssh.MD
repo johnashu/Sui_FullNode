@@ -22,7 +22,10 @@ Add the SSH public key to your admin. This next command will open up a blank tex
 sudo nano "/home/admin/.ssh/authorized_keys"
 ```
 
-> ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAilecANtfLlX2bjpSaUYh4DEh/Rv1a3rwPUNtZAWA1eMLbOS+2pcOh8NG/5GyTXYFbQSX4eVhjyHv3pNxl2GyTB87c2YTW8ylhKDPbvK1fGqqb8hlX8KdCfY+PEanzGJiYCFYSy3gDr/wwm6M/80CR9qCG/VGFTDTIB1ktfoo3KOmBXAno6bTtHHXHSV7BwoFSpS1qHGdvmJgLZYeGlvs3WkCCrcnvm16rxHfnL8DHFx11xTWsV1CyiL5JBwn/mC7055aOJkDIwZFze7BCZsNibOsUk93VAw0CvMhmCWwhN1VU4fwedCPKirU6T047qDf2hP8bEkVIPy15BEH31+URw== rsa-key-20220913
+> Paste Public Key
+```bash
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAilecANtfLlX2bjpSaUYh4DEh/Rv1a3rwPUNtZAWA1eMLbOS+2pcOh8NG/5GyTXYFbQSX4eVhjyHv3pNxl2GyTB87c2YTW8ylhKDPbvK1fGqqb8hlX8KdCfY+PEanzGJiYCFYSy3gDr/wwm6M/80CR9qCG/VGFTDTIB1ktfoo3KOmBXAno6bTtHHXHSV7BwoFSpS1qHGdvmJgLZYeGlvs3WkCCrcnvm16rxHfnL8DHFx11xTWsV1CyiL5JBwn/mC7055aOJkDIwZFze7BCZsNibOsUk93VAw0CvMhmCWwhN1VU4fwedCPKirU6T047qDf2hP8bEkVIPy15BEH31+URw== rsa-key-20220913
+```
 
 # Set permissions
 ```bash
