@@ -62,3 +62,5 @@ sudo service ufw status
 netstat -tulpn | grep LISTEN
 ```
 
+You can check the status of your node here:
+`https://node.sui.zvalid.com/`
