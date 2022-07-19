@@ -26,6 +26,7 @@ WantedBy=multi-user.target
 EOF
 
 
+
 apt-get install ufw
 
 ufw allow 9184
