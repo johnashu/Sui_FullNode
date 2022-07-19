@@ -2,6 +2,7 @@ notes.md
 
 #Custom
 __play/
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
